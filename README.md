@@ -20,7 +20,15 @@ $ .\env\Scripts\activate
 
 4. Then install the dependencies:
 ```
-$ (env) pip install -r requirements.txt
+Click==7.0
+Flask==1.1.2
+Flask-SQLAlchemy==2.4.4
+gunicorn==19.9.0
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+SQLAlchemy==1.3.22
+Werkzeug==1.0.1
 ```
 
 5. Finally start the web server:
